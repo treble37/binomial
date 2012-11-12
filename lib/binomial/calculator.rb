@@ -5,15 +5,12 @@ module Binomial
   #   - probability:    The probability of one success
   #   - target:         The desired amount of successes
   class Calculator
-    ATTRS = [:trials, :probability, :target]
-    ATTRS.each do |attribute|
-      self.send(:attr_accessor, attribute)
-    end
+    attr_accessor :trials, :probability, :target
 
     def initialize(params = {})
-      ATTRS.each do |attribute|
-        instance_eval "@#{attribute.to_s} = params[:#{attribute.to_s}]"
-      end
+      @trials = params[:trials]
+      @probability = params[:probability]
+      @target = params[:target]
     end
 
     def model
