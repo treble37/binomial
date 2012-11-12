@@ -13,6 +13,7 @@ calc.calculate
 ```
 
 ## Todo   
--   Add support for cumulative binomial probabilities (X > 5, X ≤ 7, etc)   
+-   ~~Add support for cumulative binomial probabilities (X > 5, X ≤ 7, etc)~~   
+-   Some sort of input validation
 -   TESTING!
 -   Documentation
