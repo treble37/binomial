@@ -60,6 +60,7 @@ Gem::Specification.new do |s|
     binomial.gemspec
     lib/binomial.rb
     lib/binomial/calculator.rb
+    lib/binomial/cumulative_calculator.rb
     lib/binomial/integer.rb
   ]
   # = MANIFEST =
