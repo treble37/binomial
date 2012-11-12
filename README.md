@@ -1,5 +1,6 @@
 # Binomial   
 Binomial is a ruby gem for quickly calculating probabilities that are modelled by the [Binomial Theorem](http://en.wikipedia.org/wiki/Binomial_theorem).   
+The master branch of this repo may be rather buggy at times. For a stable version, use `gem install binomial` or download a tagged version.   
 ## Usage
 
 ```ruby
