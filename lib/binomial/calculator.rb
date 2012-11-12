@@ -1,3 +1,4 @@
+require 'binomial/integer'
 module Binomial
   # Params:
   #   - trials:         Total number of trials conducted

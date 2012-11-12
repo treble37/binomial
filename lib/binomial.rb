@@ -1,4 +1,3 @@
-require 'binomial/integer'
 require 'binomial/calculator'
 
 module Binomial
