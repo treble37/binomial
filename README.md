@@ -1,6 +1,6 @@
-= Binomial   
+# Binomial   
 Binomial is a ruby gem for quickly calculating probabilities that are modelled by the [Binomial Theorem](http://en.wikipedia.org/wiki/Binomial_theorem).   
-== Usage
+## Usage
 
 ```ruby
 require 'binomial'
@@ -12,7 +12,7 @@ calc = Binomial::Calculator.new trials: 10, probability: 0.2, target: 3
 calc.calculate 
 ```
 
-== Todo   
+## Todo   
 -   Add support for cumulative binomial probabilities (X > 5, X ≤ 7, etc)   
 -   TESTING!
 -   Documentation
