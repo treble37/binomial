@@ -71,5 +71,19 @@ describe "Binomial::Calculator" do
         ).calculate
       }.to_not raise_error
     end
+
+    it "should produce the correct results" do
+      Binomial::Calculator.new(
+        :trials       => 2,
+        :probability  => 0.5,
+        :target       => 2
+      ).calculate.should == 0.25
+      
+      Binomial::Calculator.new(
+        :trials       => 2,
+        :probability  => 0.5,
+        :target       => 1
+      ).calculate.should == 0.5
+    end
   end
 end
