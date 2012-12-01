@@ -14,7 +14,5 @@ calc.calculate
 ```
 
 ## Todo   
--   ~~Add support for cumulative binomial probabilities (X > 5, X ≤ 7, etc)~~   
--   Some sort of input validation
--   TESTING!
--   Documentation
+Check the [Issue Tracker](https://github.com/loddy1234/binomial/issues) for an idea of what I think needs doing. 
+Feel free to add your own improvements! :smile:   
