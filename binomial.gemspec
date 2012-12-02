@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   ## the sub! line in the Rakefile
   s.name              = 'binomial'
   s.version           = '0.1.1'
-  s.date              = '2012-12-01'
+  s.date              = '2012-12-02'
   s.rubyforge_project = 'binomial'
 
   ## Make sure your summary is short. The description may be as long
@@ -54,6 +54,7 @@ Gem::Specification.new do |s|
   ## THE MANIFEST COMMENTS, they are used as delimiters by the task.
   # = MANIFEST =
   s.files = %w[
+    Gemfile
     LICENSE
     README.md
     Rakefile
@@ -63,6 +64,7 @@ Gem::Specification.new do |s|
     lib/binomial/cumulative_calculator.rb
     lib/binomial/integer.rb
     spec/calculator_spec.rb
+    spec/spec_helper.rb
   ]
   # = MANIFEST =
 
