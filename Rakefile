@@ -94,13 +94,13 @@ namespace :clean do
     Rake::Task["clobber_rdoc"].invoke
   end
 
-  desc "Delete all build versions of the gem"
+  desc "Delete all built versions of the gem"
   task :built do
     sh "rm -rf pkg"
   end
 end
 
-desc "Delete SimpleCov reports, RDocs HTML and built versions"
+desc "Delete SimpleCov reports, RDoc HTML and built versions"
 task :clean => ["clean:coverage", "clean:docs", "clean:built"]
 
 #############################################################################
